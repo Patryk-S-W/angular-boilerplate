@@ -1,0 +1,11 @@
+{
+  "name": "Angular Boilerplate",
+  "description": "Angular Boilerplate",
+  "repository": "https://github.com/Patryk-S-W/angular-boilerplate",
+  "keywords": [
+    "angular",
+    "jest",
+    "compodoc",
+    "transloco"
+  ]
+}
