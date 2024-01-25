@@ -14,8 +14,10 @@ import { SharedModule } from './shared/shared.module';
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 import { ServiceWorkerModule } from '@angular/service-worker';
 
+import { HomeComponent } from './modules/home/home.component';
+
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, HomeComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

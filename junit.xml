@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="9.623">
+  <testsuite name="NavbarComponent" errors="0" failures="0" skipped="0" timestamp="2024-01-25T08:41:22" time="4.539" tests="1">
+    <testcase classname="NavbarComponent should create" name="NavbarComponent should create" time="0.392">
+    </testcase>
+  </testsuite>
+  <testsuite name="SidebarComponent" errors="0" failures="0" skipped="0" timestamp="2024-01-25T08:41:27" time="0.395" tests="1">
+    <testcase classname="SidebarComponent should create" name="SidebarComponent should create" time="0.035">
+    </testcase>
+  </testsuite>
+  <testsuite name="FooterComponent" errors="0" failures="0" skipped="0" timestamp="2024-01-25T08:41:27" time="0.348" tests="1">
+    <testcase classname="FooterComponent should create" name="FooterComponent should create" time="0.031">
+    </testcase>
+  </testsuite>
+  <testsuite name="AppComponent" errors="0" failures="0" skipped="0" timestamp="2024-01-25T08:41:22" time="5.661" tests="1">
+    <testcase classname="AppComponent should create the app" name="AppComponent should create the app" time="0.21">
+    </testcase>
+  </testsuite>
+  <testsuite name="HomeComponent" errors="0" failures="0" skipped="0" timestamp="2024-01-25T08:41:22" time="5.876" tests="1">
+    <testcase classname="HomeComponent should create" name="HomeComponent should create" time="0.146">
+    </testcase>
+  </testsuite>
+</testsuites>
