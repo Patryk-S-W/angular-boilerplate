@@ -1,4 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
+import {
+  BrowserModule,
+  provideClientHydration,
+} from '@angular/platform-browser';
 import { NgModule, isDevMode } from '@angular/core';
 
 import { AppComponent } from './app.component';
@@ -12,9 +15,7 @@ import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -30,7 +31,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
       registrationStrategy: 'registerWhenStable:30000',
     }),
   ],
-  providers: [],
+  providers: [provideClientHydration()],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
