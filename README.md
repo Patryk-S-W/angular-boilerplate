@@ -50,7 +50,6 @@ Angular Boilerplate for new projects.
 - [x] Search Engine Optimization (SEO)
 - [x] Atomic Design
 - [x] Template Driven Forms
-- [x] Search / Grid / Pagination
 
 ## Install / Development
 
